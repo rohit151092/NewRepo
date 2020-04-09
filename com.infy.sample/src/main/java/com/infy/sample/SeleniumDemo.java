@@ -10,7 +10,8 @@ public class SeleniumDemo {
     @Test
     public void sampleTest() throws InterruptedException {
 	try {
-	    System.setProperty("webdriver.chrome.driver", "C:\\My folder\\Driver\\chromedriver.exe");
+	    System.setProperty("webdriver.chrome.driver",
+		    "C:\\Users\\Rohit Dwivedi\\Desktop\\LocalRepository\\com.infy.sample\\resource\\drivers\\chromedriver.exe");
 	    driver = new ChromeDriver();
 	    String baseUrl = "https://material-ui.com/components/text-fields/";
 	    driver.get(baseUrl);
